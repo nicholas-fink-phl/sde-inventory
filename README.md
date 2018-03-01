@@ -27,10 +27,10 @@ Rename `sample.config.yaml` to `config.yaml` and configure as needed.
 
 For a summary of commands and options, run `sde_inventory --help`.
 
-### `gis_inventory create [--config/-c <config file>]`
+### `sde_inventory create [--config/-c <config file>]`
 
 Inventories an SDE database and outputs the contents as JSON to `stdout`. To capture this in a file, use the `>` operator (e.g. `gis_inventory create > inventory.json`).
 
-### `gis_inventory get_changes OLD NEW [--config/-c <config file>]`
+### `sde_inventory get_changes OLD NEW [--config/-c <config file>]`
 
 Compares two inventory files for changes and logs changes. See `config.yaml` to configure logging.
